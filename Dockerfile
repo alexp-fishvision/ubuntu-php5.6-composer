@@ -17,7 +17,12 @@ RUN apt-get -y install wget \
     libssl-dev \
     vim \
     nano \
-    openssh-client
+    openssh-client \
+    software-properties-common
+
+# Add ondrej php repo
+RUN add-apt-repository ppa:ondrej/php
+RUN apt-get update
 
 # Install PHP
 RUN apt-get -y install \
