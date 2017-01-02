@@ -25,7 +25,7 @@ RUN add-apt-repository ppa:ondrej/php
 RUN apt-get update
 
 # Install PHP
-RUN apt-get -y install \
+RUN apt-get -y --allow-unauthenticated install \
     php5.6 \
     php5.6-cgi \
     php5.6-cli \
