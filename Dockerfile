@@ -21,30 +21,30 @@ RUN apt-get -y install wget \
 
 # Install PHP
 RUN apt-get -y install \
-    php7.0 \
-    php7.0-cgi \
-    php7.0-cli \
-    php7.0-common \
-    php7.0-curl \
-    php7.0-dev \
-    php7.0-gd \
-    php7.0-gmp \
-    php7.0-json \
-    php7.0-ldap \
-    php7.0-mysql \
-    php7.0-odbc \
-    php7.0-opcache \
-    php7.0-pspell \
-    php7.0-readline \
-    php7.0-sqlite3 \
-    php7.0-tidy \
-    php7.0-xmlrpc \
-    php7.0-xsl \
-    php7.0-fpm \
-    php7.0-intl \
-    php7.0-mcrypt \
-    php7.0-mbstring \
-    php7.0-zip \
+    php5.6 \
+    php5.6-cgi \
+    php5.6-cli \
+    php5.6-common \
+    php5.6-curl \
+    php5.6-dev \
+    php5.6-gd \
+    php5.6-gmp \
+    php5.6-json \
+    php5.6-ldap \
+    php5.6-mysql \
+    php5.6-odbc \
+    php5.6-opcache \
+    php5.6-pspell \
+    php5.6-readline \
+    php5.6-sqlite3 \
+    php5.6-tidy \
+    php5.6-xmlrpc \
+    php5.6-xsl \
+    php5.6-fpm \
+    php5.6-intl \
+    php5.6-mcrypt \
+    php5.6-mbstring \
+    php5.6-zip \
     php-xdebug
 
 # Clean apt
