@@ -35,6 +35,7 @@ RUN apt-get update
 # Install python
 RUN apt-get install -y python2.7
 RUN apt-get install -y python-pip
+RUN pip install --upgrade pip
 
 # Add ondrej php repo
 RUN add-apt-repository ppa:ondrej/php
